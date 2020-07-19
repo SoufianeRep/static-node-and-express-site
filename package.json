@@ -1,0 +1,25 @@
+{
+  "name": "static-node-and-express-site",
+  "version": "1.0.0",
+  "description": "teamTreehouse techdegree unit6 project (nodejs / expressjs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoufianeRep/static-node-and-express-site.git"
+  },
+  "author": "Soufiane Ez Zine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoufianeRep/static-node-and-express-site/issues"
+  },
+  "homepage": "https://github.com/SoufianeRep/static-node-and-express-site#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0"
+  }
+}

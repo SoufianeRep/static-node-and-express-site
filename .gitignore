@@ -1,0 +1,6 @@
+# To ignore
+
+node_modules/
+LICENSE/
+example-html/
+mockups/
