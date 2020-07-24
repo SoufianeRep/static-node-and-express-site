@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "project_name": "Random quote generator",
+      "description": "A Random Quote Generator, a program that displays a randomly selected quote each time the user clicks a button or automaticaly after a little while.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "link",
+      "github_link": "https://github.com/SoufianeRep/project1_Random_Quote_Generator",
+      "image_urls": [
+        "/static/images/quote_generator/quote_generator1.jpg",
+        "/static/images/quote_generator/quote_generator2.png",
+        "/static/images/quote_generator/quote_generator3.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "List pagination and filtering",
+      "description": "This project divides a long list of profiles into a series of \"pages\" with a set amount of elements and improves the user experience of a web page by adding features like a search barre.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/SoufianeRep/list_pagination_and_filtering",
+      "image_urls": [
+        "/static/images/filtering/filtering1.png",
+        "/static/images/filtering/filtering2.png",
+        "/static/images/filtering/filtering3.png",
+        "/static/images/filtering/filtering4.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive form and validation",
+      "description": "This project uses JavaScript to enhance an interactive registration form for a fictional conference called \"FullStack Conf.\"",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/SoufianeRep/Interactive_Form",
+      "image_urls": [
+        "/static/images/form/form1.png",
+        "/static/images/form/form2.png",
+        "/static/images/form/form3.png",
+        "/static/images/form/form4.png",
+        "/static/images/form/form5.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Object Oriented Programing game show",
+      "description": "This project is a browser-based, word guessing game: \"Phrase Hunter.\" It uses JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/SoufianeRep/oop_game_APP",
+      "image_urls": [
+        "/static/images/OOP_game/OOP_game1.png",
+        "/static/images/OOP_game/OOP_game2.png",
+        "/static/images/OOP_game/OOP_game3.png",
+        "/static/images/OOP_game/OOP_game4.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API request",
+      "description": "This project creates an employee directory by communicating with a third-party API.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/SoufianeRep/public-API-request",
+      "image_urls": [
+        "/static/images/public_api/public_api1.png",
+        "/static/images/public_api/public_api2.png",
+        "/static/images/public_api/public_api3.png",
+        "/static/images/public_api/public_api4.png"
+      ]
+    }
+  ]
+}

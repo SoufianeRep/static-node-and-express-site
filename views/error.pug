@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Home
+  h2(style='text-align: center') (#{error.status})
+  h3(style='text-align: center') #{error.message}
+  br
+  br
+  br
+  br
+  pre
+    p #{error.stack}
