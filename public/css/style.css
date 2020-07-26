@@ -23,7 +23,7 @@ h6 {
 
 p {
   font-size: 15px;
-  color: #666;
+  color: #1b3333;
 }
 
 .round {
@@ -31,7 +31,7 @@ p {
 }
 
 .text-light {
-  color: #666;
+  color: #0e1b1b;
 }
 
 .button {
@@ -62,7 +62,7 @@ a:hover {
 
 .portfolio-me {
   padding: 20px;
-  background: #121213;
+  background: #1b3333;
   color: #fff;
   box-shadow: none !important;
 }
@@ -113,13 +113,20 @@ a:hover {
 
 .portfolio-index {
   margin: 0;
-  padding: 10px 50px;
+  padding: 10px 30px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .portfolio-index .thumbnail {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  /* border: solid 4px #dadbdb; */
+  border-radius: 15px;
+}
+
+.portfolio-index .thumbnail:hover {
+  box-shadow: 0px 0px 10px 5px #455454;
+  transition: box-shadow 100ms;
 }
 
 .portfolio-index a {
@@ -128,6 +135,7 @@ a:hover {
 
 .portfolio-index .cell {
   margin-bottom: 15px;
+  margin-left: 20px;
   /* float: left; */
   /* width: auto; */
   padding: 5px;
@@ -135,6 +143,7 @@ a:hover {
 
 .portfolio-index .cell h5 {
   letter-spacing: 0px;
+  text-align: center;
 }
 
 .portfolio-meta {
@@ -156,4 +165,36 @@ a:hover {
 
 .portfolio-bio {
   line-height: 25px;
+}
+
+.thumbnail-profile {
+  border: solid 4px #dadbdb;
+}
+
+/* caption slide in for projects thumbnail*/
+
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+figcaption {
+  position: absolute;
+  background: #1b3333;
+  color: white;
+  padding: 10px 20px;
+
+  opacity: 0;
+  bottom: 0;
+  left: -30%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  left: 0;
 }

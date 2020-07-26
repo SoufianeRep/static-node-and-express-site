@@ -17,6 +17,7 @@ app.use("/", router);
 app.use("/about", router);
 
 // Individual projects route
+app.use("/project", router);
 app.use("/project", projectRoute);
 
 // Error middleware

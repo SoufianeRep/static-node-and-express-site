@@ -5,17 +5,18 @@ block content
     div
 
       //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
-      h1 Life is good
+      h1 For A Better Web
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
-        | this is protfolio description (to do later)
+        | An exhaustive list of applications showcasing some of the skills I acquired through my ongoing learning process. 
   article.grid-container.portfolio-index
     
     //- .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
     each project in projects
       .cell
         a(href=`/project/${project.id}`)
-          img.thumbnail(src=`${project.image_urls[0]}`, width= 450)
-          h5 #{project.project_name}
+          figure
+            img.thumbnail(src=`${project.image_urls[0]}`, width= 450)
+            figcaption #{project.project_name}
       
