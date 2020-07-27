@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/SoufianeRep/static-node-and-express-site.git"
   },
+  "engines": {
+    "node": "13.7.0"
+  },
   "author": "Soufiane Ez Zine",
   "license": "ISC",
   "bugs": {
