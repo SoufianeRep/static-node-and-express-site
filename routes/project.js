@@ -3,6 +3,7 @@ const router = express.Router();
 const template = require("../dataTemplate.js");
 const { data } = require("../data.json");
 
+//added error handler on /project/:id route
 router.get("/:id", (req, res, next) => {
   const project = req.params.id;
   if (project > data.length - 1) {
